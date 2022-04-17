@@ -9,6 +9,7 @@
         padding: 14px;
         background-color: #F0F0F0;
         border: 3px solid white;
+        outline: solid 1.5px #E1E1E1;
     }
     .header.black {
         background-color: #1E1E1E;
