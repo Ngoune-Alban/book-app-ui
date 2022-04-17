@@ -1,0 +1,44 @@
+.sidebar {
+    height: 100vh;
+    width: 25%;
+    border-right: 1.5px solid #E1E1E1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar .group {
+    width: 80%;
+}
+
+.sidebar .group .title {
+    font-weight: 600;
+    line-height: 24px;
+    font-size: 18px;
+    padding-top: 24px;
+    padding-bottom: 18px;
+}
+
+.sidebar .group .sidebarItem {
+    display: flex;
+    align-items: center;
+    padding: 15px 0;
+    font-weight: 500;
+}
+
+.sidebar .group .sidebarItem .right{
+    margin-left: auto;
+}
+
+.sidebar .group .sidebarItem .label{
+    margin-left: 10px;
+}
+.sidebar .group .sidebarItem .icon{
+    font-size: 18px;
+}
+
+.selected-icon {
+   background-color: #F9F9F9;
+   padding: 6px 12px 6px 12px ;
+   border-radius: 12px;
+}
