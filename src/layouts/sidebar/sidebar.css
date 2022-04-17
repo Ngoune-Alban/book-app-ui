@@ -26,10 +26,6 @@
     font-weight: 500;
 }
 
-.sidebar .group .sidebarItem .right{
-    margin-left: auto;
-}
-
 .sidebar .group .sidebarItem .label{
     margin-left: 10px;
 }
@@ -41,4 +37,10 @@
    background-color: #F9F9F9;
    padding: 6px 12px 6px 12px ;
    border-radius: 12px;
+}
+
+@media screen  and (max-width: 750px) {
+    .sidebar {
+        display: none;
+    }
 }

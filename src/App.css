@@ -25,3 +25,9 @@
   align-items: center;
   justify-content: center;
 }
+.right{
+  margin-left: auto;
+}
+.app .main-content {
+  display: flex;
+}
