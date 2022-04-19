@@ -1,23 +1,31 @@
-.app.theme-black {
-  color: #ffffff;
-  background-color: #1E1E1E;
-}
-.app.theme-light {
+.app {
   color: #1E1E1E;
   background-color: #ffffff;
 }
 
-.group-title-light{
+.app-black {
+  color: #ffffff;
+  background-color: #1E1E1E;
+}
+
+.group-title {
   color: #696969;
 }
-.group-title-black{
+
+.group-title-black {
   color: #c3c3c3;
 }
-.content-title-light{
+
+.content-title {
   color: #0F0F0F;
 }
-.content-title-black{
+
+.content-title-black {
   color: #F0F0F0;
+}
+
+.title {
+  font-weight: 600;
 }
 
 .center {
@@ -25,9 +33,11 @@
   align-items: center;
   justify-content: center;
 }
-.right{
+
+.right {
   margin-left: auto;
 }
+
 .app .main-content {
   display: flex;
 }
