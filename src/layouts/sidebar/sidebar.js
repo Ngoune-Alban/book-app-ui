@@ -14,11 +14,11 @@ function Sidebar() {
     const dispatch = useDispatch()
     return (<div className="sidebar">
         <div className='group'>
-            <div className={`title group-title${theme ? '-' + theme : ''}`}>Library</div>
+            <div className={`title group-title ${theme}`}>Library</div>
             <div className='sidebarItem'>
                 <div className='center'><img src={myBook} alt="list all books icon" /></div>
                 <div className='label'>My books</div>
-                <div className={`right selected-icon${theme ? '-' + theme : ''} small`}>15</div>
+                <div className={`right selected-icon ${theme} small`}>15</div>
             </div>
             <div className='sidebarItem'>
                 <div className='center'><img src={addBook} alt="add books icon" /></div>
@@ -27,7 +27,7 @@ function Sidebar() {
 
         </div>
         <div className='group'>
-            <div className={`title group-title${theme ? '-' + theme : ''}`}>Settings</div>
+            <div className={`title group-title ${theme}`}>Settings</div>
             <div className='sidebarItem'>
                 <div className='center'><img src={dark} alt="dark mode icon" /></div>
                 <div className='label'>Dark Mode</div>

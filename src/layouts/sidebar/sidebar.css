@@ -38,7 +38,7 @@
     border-radius: 12px;
 }
 
-.selected-icon-black {
+.selected-icon.black {
     background-color: #000000;
     padding: 6px 12px 6px 12px;
     border-radius: 12px;
