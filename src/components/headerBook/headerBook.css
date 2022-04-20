@@ -9,6 +9,14 @@
     display: flex;
 }
 
+.headerBook>*>* {
+    margin-right: 5px;
+}
+
+/* .headerBook>*:nth-last-child(1) {
+    margin-right: 0;
+} */
+
 
 h1 {
     margin: 0;
