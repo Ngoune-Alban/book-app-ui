@@ -5,6 +5,7 @@ import { useSelector } from 'react-redux'
 import {
   selectTheme
 } from './store/slice/themeSlice'
+import Books from './views/books/books';
 
 function App() {
   const theme = useSelector(selectTheme)
@@ -13,8 +14,7 @@ function App() {
       <Header />
       <div className='main-content'>
         <Sidebar />
-        <div>Here is the content</div>
-        {/* <Content /> */}
+        <Books />
       </div>
 
     </div>
